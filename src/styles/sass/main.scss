@@ -1,0 +1,157 @@
+$cl-background: #292E36;
+$color-border: rgba(255, 255, 255, 0.1);
+@mixin centerFlow($direction : row, $justify : center){
+  display: flex;
+  flex-direction: $direction;
+  justify-content: $justify;
+  align-content: center;
+}
+@mixin textStyle($size : 20px){
+  color : #fff;
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-size: $size;
+  line-height: 30px;
+}
+@mixin hovering ($time: 0.3s, $scale : 1.2 ){
+  transition : all $time ease-in-out;
+  transform: scale($scale);
+}
+@mixin sizingIcons($size : 83px) {
+  height: $size;
+  width: $size;
+}
+
+.navigation-header, .logo-side{
+  background-color: $cl-background;
+}
+
+.navigation-header {
+  border-bottom: 2px dashed #5C6168;
+}
+
+.ul-navigation {
+  @include centerFlow(row, space-between)
+}
+
+.link-navigation {
+  display: inline-block;
+  height: 30px;
+  text-decoration: none;
+  margin : 26px 60px 26px 40px;
+
+  @include textStyle();
+  &:hover {
+    @include hovering();
+    color: #E1B168;
+  }
+}
+
+.navigation-header-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+.social-media-icon {
+  margin-right: 20px;
+
+  &:hover {
+    @include hovering();
+  }
+}
+
+.logo-side {
+  padding: 40px;
+  border-bottom: 1px solid #5C6168;
+  @include centerFlow(row, space-between);
+}
+.navigation-header {
+  @include centerFlow(row, space-between)
+}
+.div-reservation-button, .div-call-button, .text-block {
+  @include centerFlow(column);
+}
+.h1-welcome {
+  font-family: 'Cormorant Infant';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+.p-welcome {
+  @include textStyle();
+}
+
+.section-welcome {
+  @include centerFlow(row, space-between);
+  background-color: $cl-background;
+  padding: 35px 35px 0 35px;
+
+}
+
+.section-welcome-description {
+  margin: auto 0;
+  padding: 20px 30px;
+}
+
+.section-welcome-description *{
+ margin-bottom: 35px;
+}
+
+.section-welcome-image{
+  position: relative;
+}
+.image-welcome {
+  padding: 30px 30px 0 30px;
+
+  box-shadow: 0px -30px 0px 0px $color-border,
+  -30px 0px 0px 0px $color-border,
+  30px 0px 0px 0px $color-border;
+
+}
+.part-image-welcome {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-about-us {
+  padding-top: 100px ;
+  background-color: #FFF8F5;
+}
+
+.short-icon-side {
+  margin-bottom: 60px;
+  @include centerFlow(row, space-around);
+}
+
+.div-around-image {
+  background-color: #292E36;
+  border-radius: 100px;
+  margin-right: 20px;
+
+  @include sizingIcons;
+  @include centerFlow();
+}
+.image-short-card {
+
+  margin: auto;
+  @include sizingIcons(50%)
+}
+
+.short-info-card{
+  @include centerFlow()
+}
+.h2-card {
+  margin-bottom: 10px;
+}
+
+
+
+.div-around-image {
+
+}
+

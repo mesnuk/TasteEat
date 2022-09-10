@@ -1,0 +1,165 @@
+.navigation-header, .logo-side {
+  background-color: #292E36;
+}
+
+.navigation-header {
+  border-bottom: 2px dashed #5C6168;
+}
+
+.ul-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.link-navigation {
+  display: inline-block;
+  height: 30px;
+  text-decoration: none;
+  margin: 26px 60px 26px 40px;
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+.link-navigation:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+  color: #E1B168;
+}
+
+.navigation-header-icons {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.social-media-icon {
+  margin-right: 20px;
+}
+.social-media-icon:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale(1.2);
+}
+
+.logo-side {
+  padding: 40px;
+  border-bottom: 1px solid #5C6168;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.navigation-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.div-reservation-button, .div-call-button, .text-block {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.h1-welcome {
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 100px;
+  line-height: 110px;
+  letter-spacing: 0.2px;
+  color: #FFFFFF;
+}
+
+.p-welcome {
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.section-welcome {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  background-color: #292E36;
+  padding: 35px 35px 0 35px;
+}
+
+.section-welcome-description {
+  margin: auto 0;
+  padding: 20px 30px;
+}
+
+.section-welcome-description * {
+  margin-bottom: 35px;
+}
+
+.section-welcome-image {
+  position: relative;
+}
+
+.image-welcome {
+  padding: 30px 30px 0 30px;
+  box-shadow: 0px -30px 0px 0px rgba(255, 255, 255, 0.1), -30px 0px 0px 0px rgba(255, 255, 255, 0.1), 30px 0px 0px 0px rgba(255, 255, 255, 0.1);
+}
+
+.part-image-welcome {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.section-about-us {
+  padding-top: 100px;
+  background-color: #FFF8F5;
+}
+
+.short-icon-side {
+  margin-bottom: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+
+.div-around-image {
+  background-color: #292E36;
+  border-radius: 100px;
+  margin-right: 20px;
+  height: 83px;
+  width: 83px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.image-short-card {
+  margin: auto;
+  height: 50%;
+  width: 50%;
+}
+
+.short-info-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+}
+
+.h2-card {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=main.css.map */
