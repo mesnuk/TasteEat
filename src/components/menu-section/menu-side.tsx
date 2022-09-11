@@ -14,7 +14,8 @@ class DataMenu {
          return (
             <div className='starters menu-type'>
                 <h1 className='type-heading-menu'>{'Starters'}</h1>
-                {this.menuCards.filter((el) => el.type === 'Starters')
+                {
+                    this.menuCards.filter((el) => el.type === 'Starters')
                     .map(el => <MenuCard name={el.name}
                                          description={el.description}
                                          imageSrc={el.imageSrc}

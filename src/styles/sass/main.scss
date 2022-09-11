@@ -142,7 +142,7 @@ $color-border: rgba(255, 255, 255, 0.1);
   @include sizingIcons(50%)
 }
 
-.short-info-card, .section-about-us-description{
+.short-info-card, .section-about-us-description, .section-menu{
 
   @include centerFlow()
 }
@@ -153,6 +153,8 @@ $color-border: rgba(255, 255, 255, 0.1);
 
 .h2-card {
   margin-bottom: 10px;
+
+  @include textStyle(30px, #292E36, 'Cormorant Infant')
 }
 
 .image-side-about-us {
@@ -187,6 +189,10 @@ $color-border: rgba(255, 255, 255, 0.1);
 
   @include textStyle(20px, #555555);
 }
+.p-card{
+
+  @include textStyle(20px, #555555);
+}
 
 .text-body-menu-card {
   display: flex;
@@ -197,9 +203,9 @@ $color-border: rgba(255, 255, 255, 0.1);
   flex-grow: 1;
   border-bottom: 2px solid #AAAAAA;
   margin: 5px;
-  padding-top: 40px;
+  padding-top: 24px;
 }
-.menu-type {
+.menu-type, .menu-advertising {
   padding: 50px 40px;
 }
 .menu-card {
@@ -209,13 +215,20 @@ $color-border: rgba(255, 255, 255, 0.1);
 .dish-icon {
   margin-right: 20px;
 }
-.p-menu {
-  margin: 0;
-}
 
 .h2-card-menu, .menu-price {
   @include textStyle(30px, #292E36, 'Cormorant Infant');
 }
 .type-heading-menu {
   @include textStyle(36px, #292E36, 'Cormorant Infant');
+}
+
+.h2-advertising {
+  margin-top: 0;
+}
+
+.menu-advertising {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
 }
