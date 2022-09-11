@@ -1,0 +1,75 @@
+[
+  {
+    "name" : "Raw Scallops from Erquy",
+    "description" : "Shuck the scallop to that used for oysters",
+    "imageSrc" : "./images/dish/Raw-Scallops-from-Erquy.svg",
+    "price" : "40$",
+    "type" : "Starters"
+  },
+  {
+    "name" : "Spring Roll",
+    "description" : "Add oil to a hot pan spring onion whites",
+    "imageSrc" : "./images/dish/Spring-Roll.svg",
+    "price" : "$20",
+    "type" : "Starters"
+  },
+  {
+    "name" : "French Onion Soup",
+    "description" : "Wheat flour, apple cider vinegar, bread",
+    "imageSrc" : "./images/dish/French-Onion-Soup.svg",
+    "price" : "$25",
+    "type" : "Starters"
+  },
+  {
+    "name" : "Tomato Bruschetta",
+    "description" : "Bread, olive oil, garlic, black pepper",
+    "imageSrc" : "./images/dish/Tomato-Bruschetta.svg",
+    "price" : "$30",
+    "type" : "Starters"
+  },
+
+
+  {
+    "name" : "Grilled Salmon with Dill Sauce",
+    "description" : "Brown sugar, salmon fillet, Dijon mustard",
+    "imageSrc" : "./images/dish/Grilled-Salmon-with-Dil-Sauce.svg",
+    "price" : "$40",
+    "type" : "Main Dish"
+  },
+  {
+    "name" : "Roast Beef with Vegetable",
+    "description" : "Green beans, rib eye, olive oil, beef",
+    "imageSrc" : "./images/dish/Roast-Beef-with-Vegetable.svg",
+    "price" : "$20",
+    "type" : "Main Dish"
+  },
+  {
+    "name" : "Marrkesh Vegetetarian Curruy",
+    "description" : "Sweet potato, eggplant, garbanzo bean",
+    "imageSrc" : "./images/dish/Marrkesh-Vegetetarian-Curruy.svg",
+    "price" : "$25",
+    "type" : "Main Dish"
+  },
+  {
+    "name" : "Spicy Vegan Potato Curry",
+    "description" : "Coconut milk, beans, potatoes, curry powder",
+    "imageSrc" : "./images/dish/Spicy-Vegan-Potato-Curry.svg",
+    "price" : "$35",
+    "type" : "Main Dish"
+  },
+  {
+  "name" : "Apple Pie with Cream",
+  "description" : "Whipping cream, egg white, cinnamon",
+  "imageSrc" : "./images/dish/Apple-Pie-with-Cream.svg",
+  "price" : "$15",
+  "type" : "Desert"
+  },
+  {
+    "name" : "Lemon Meringue Pie",
+    "description" : "Frozen pie crust, meringue, lemon",
+    "imageSrc" : "./images/dish/Lemon-Meringue-Pie.svg",
+    "price" : "$30",
+    "type" : "Desert"
+  }
+
+]
