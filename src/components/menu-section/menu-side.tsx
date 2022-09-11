@@ -73,15 +73,9 @@ export const MenuSide : React.FC<{ arr : MenuCardProps[] }> = ({ arr }) => {
     
     return (
         <div className='menu-side'>
-            {
-                starterSide
-            }
-            {
-                mainDishSide
-            }
-            {
-                desertSide
-            }
+            { starterSide }
+            { mainDishSide }
+            { desertSide }
         </div>
     )
 }
