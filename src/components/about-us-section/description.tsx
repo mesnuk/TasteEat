@@ -24,7 +24,7 @@ export const Signature: React.FC<{}> = () => {
 
 export const Description : React.FC<JSONTextBlockProps> = ({arr}) => {
     return (
-        <div>
+        <div className="section-about-us-description">
             <div className='image-side-about-us'>
                 <img src='./images/about-us-img.jpg' alt='img'/>
             </div>
@@ -32,8 +32,9 @@ export const Description : React.FC<JSONTextBlockProps> = ({arr}) => {
                 {
                    arr.map( el => <TextBlock key={el.key} innerH2={el.innerH2} innerParagraph={el.innerParagraph} />)
                 }
+                <Signature />
             </div>
-            <Signature />
+
         </div>
     )
 } ;

@@ -6,7 +6,6 @@ import { Description } from './description'
 
 
 const Cards: React.FC<JSONCardsProps> = ( {arr}  ) => {
-console.log(arr, 'e3');
     return (
         <div className='short-icon-side'>
             {arr.map( el => <ShortInfoCard key={el.key} heading={el.heading!}
