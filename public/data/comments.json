@@ -1,0 +1,29 @@
+[
+  {
+    "imageSrc": "./images/Natasha.svg",
+    "name": "Natasha D",
+    "aboutMe": "They known for its fabulous taste and food. Anywhere you go your hunger is satisfied. The best chicken & burgers those are yummy.",
+    "city": "Newyork"
+
+  },
+  {
+    "imageSrc": "./images/Jack.svg",
+    "name": "Jack Sparrow",
+    "aboutMe": "I have visited this fantastic restaurant on several occasions, food is absolutely outstanding & attention to detail is in league of its own.",
+    "city": "Salt Lake City"
+
+  },
+  {
+  "imageSrc": "./images/Martin.svg",
+  "name": "Martin",
+  "aboutMe": "Perfectly known for its fabulous taste and food. Anywhere your hunger is satisfied. They give best fried chicken and burgers those are yummy.",
+  "city": "San Diego"
+
+  },
+  {
+    "imageSrc": "./images/Andrii.jpg",
+    "name": "Andrii Sovtus",
+    "aboutMe": "As our old league seems to have disappeared. So here is our new one.",
+    "city": "Ivano-Frankivsk"
+  }
+]
