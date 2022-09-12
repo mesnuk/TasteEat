@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.0.6",
     "axios": "^0.27.2",
     "react": "^18.2.0",
+    "react-alice-carousel": "^2.6.4",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
     "sass": "^1.54.9",
@@ -24,7 +25,9 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "scss": "sass --watch src/styles/sass/main.scss:src/styles/css/style.css"
+    "scss": "sass --watch src/styles/sass/main.scss:src/styles/css/style.css",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

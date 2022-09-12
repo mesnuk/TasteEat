@@ -11,12 +11,16 @@ class DataMenu {
     }
 
     public getStarterSide () : JSX.Element{
+
+
          return (
             <div className='starters menu-type'>
                 <h1 className='type-heading-menu'>{'Starters'}</h1>
                 {
-                    this.menuCards.filter((el) => el.type === 'Starters')
-                    .map(el => <MenuCard name={el.name}
+                    this.menuCards
+                    .filter((el) => el.type === 'Starters')
+                    .map((el) => <MenuCard key={el.myKey} myKey={el.myKey}
+                                         name={el.name}
                                          description={el.description}
                                          imageSrc={el.imageSrc}
                                          price={el.price}
@@ -31,8 +35,10 @@ class DataMenu {
         return (
             <div className='desert menu-type'>
                 <h1 className='type-heading-menu'>{'Desert'}</h1>
-                {this.menuCards.filter((el) => el.type === 'Desert')
-                    .map(el => <MenuCard name={el.name}
+                {this.menuCards
+                    .filter((el) => el.type === 'Desert')
+                    .map((el) => <MenuCard key={el.myKey} myKey={el.myKey}
+                                         name={el.name}
                                          description={el.description}
                                          imageSrc={el.imageSrc}
                                          price={el.price}
@@ -43,11 +49,14 @@ class DataMenu {
         )
     }
     public getMainDishSide () : JSX.Element{
+
         return (
             <div className='mainDish menu-type'>
-                <h1 className='type-heading-menu'>{'Main Dish'}</h1>
-                {this.menuCards.filter((el) => el.type === 'Main Dish')
-                    .map(el => <MenuCard name={el.name}
+                <h1 className='type-heading-menu'>Main Dish</h1>
+                {this.menuCards
+                    .filter((el) => el.type === 'Main Dish')
+                    .map((el) => <MenuCard key={el.myKey} myKey={el.myKey}
+                                         name={el.name}
                                          description={el.description}
                                          imageSrc={el.imageSrc}
                                          price={el.price}
@@ -68,6 +77,8 @@ export const MenuSide : React.FC<{ arr : MenuCardProps[] }> = ({ arr }) => {
     const starterSide = menu.getStarterSide();
     const mainDishSide =menu.getMainDishSide();
     const desertSide = menu.getDesertSide();
+
+
 
 
 

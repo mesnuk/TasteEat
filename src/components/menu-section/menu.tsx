@@ -7,8 +7,10 @@ import {MenuAdvertising} from "./menu-advertising";
 export const SectionMenu: React.FC<{ menuCards : MenuCardProps[] }> = ( {menuCards} ) => {
     return (
         <section className='section-menu'>
-            <MenuAdvertising  />
-            <MenuSide arr={menuCards}/>
+            <div className='menu-section-body'>
+                <MenuAdvertising  />
+                <MenuSide arr={menuCards}/>
+            </div>
         </section>
     )
 }

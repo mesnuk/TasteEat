@@ -151,7 +151,7 @@
   width: 50%;
 }
 
-.short-info-card, .section-about-us-description {
+.short-info-card, .section-about-us-description, .menu-section-body {
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -164,6 +164,12 @@
 
 .h2-card {
   margin-bottom: 10px;
+  color: #292E36;
+  font-family: "Cormorant Infant";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 30px;
 }
 
 .image-side-about-us {
@@ -204,6 +210,15 @@
   line-height: 30px;
 }
 
+.p-card {
+  color: #555555;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 30px;
+}
+
 .text-body-menu-card {
   display: flex;
   align-items: center;
@@ -213,7 +228,7 @@
   flex-grow: 1;
   border-bottom: 2px solid #AAAAAA;
   margin: 5px;
-  padding-top: 40px;
+  padding-top: 24px;
 }
 
 .menu-type {
@@ -226,10 +241,8 @@
 
 .dish-icon {
   margin-right: 20px;
-}
-
-.p-menu {
-  margin: 0;
+  height: 84px;
+  width: 84px;
 }
 
 .h2-card-menu, .menu-price {
@@ -248,6 +261,122 @@
   font-weight: 400;
   font-size: 36px;
   line-height: 30px;
+}
+
+.menu-advertising {
+  padding: 25px 50px;
+  width: 30%;
+}
+
+.menu-side {
+  width: 70%;
+}
+
+.div-advert-image {
+  width: 400px;
+}
+
+.image-advert {
+  margin: 20px 10px 40px 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.section-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.span-title {
+  border-bottom: 1px solid #E1B168;
+  border-top: 1px solid #E1B168;
+  padding: 5px 0;
+  color: #292E36;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.span-title-testimonial {
+  border-bottom: 1px solid #E1B168;
+  border-top: 1px solid #E1B168;
+  padding: 5px 0;
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+.section-comments {
+  padding: 140px 40px 120px;
+  background-color: #292E36;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-comments * {
+  color: #fff !important;
+}
+
+span.city-comment {
+  color: #E1B168 !important;
+}
+
+.image-comment {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 115px;
+  width: 115px;
+}
+
+.comment {
+  padding: 0 40px 20px;
+  background-color: #343942;
+  min-height: 200px;
+  margin-right: 20px;
+}
+
+.name-side-comment {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+
+.heading-side-comment {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #797E89;
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  align-content: center;
+}
+.heading-side-comment > div {
+  margin-right: 20px;
+  position: relative;
+}
+.heading-side-comment > div .image-quotes-comment {
+  background: #E1B168;
+  border: 2px solid #292E36;
+  border-radius: 100px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  height: 30px;
+  width: 30px;
+}
+
+.header-comments-section {
+  margin-bottom: 80px;
 }
 
 /*# sourceMappingURL=main.css.map */

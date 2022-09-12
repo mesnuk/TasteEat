@@ -3,7 +3,8 @@ import {MenuCardProps} from "./type";
 
 
 
-export const MenuCard : React.FC<MenuCardProps> = ({name,
+export const MenuCard : React.FC<MenuCardProps> = ({   myKey ,
+                                                       name,
                                                        description,
                                                        imageSrc,
                                                        price,

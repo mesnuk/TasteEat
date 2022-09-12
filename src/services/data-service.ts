@@ -1,6 +1,7 @@
 import {CardProps, TextBlockProps} from "../components/about-us-section/types";
 import axios from "axios";
 import {MenuCardProps} from "../components/menu-section/type";
+import {CommentProps} from "../components/comments-section/type";
 const headers = {
     headers: {
         'Content-Type': 'application/json',
@@ -21,6 +22,11 @@ export class DataService {
     }
     public getMenuCards(): Promise<MenuCardProps[]> {
         return axios.get<MenuCardProps[]>('./data/menu.json', headers ).then(response => {
+            return response.data;
+        })
+    }
+    public getCommentsCards(): Promise<CommentProps[]> {
+        return axios.get<CommentProps[]>('./data/comments.json', headers ).then(response => {
             console.log(response.data)
             return response.data;
         })

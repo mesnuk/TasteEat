@@ -1,9 +1,10 @@
 export interface  MenuCardProps {
-    "name" : string,
-    "description" : string,
-    "imageSrc" : string,
-    "price" : string,
-    "type" : string
+    myKey : number,
+    name : string,
+    description : string,
+    imageSrc : string,
+    price : string,
+    type : string
 }
 export type MenuTypes = 'Starters' | "Desert" | "Main Dish";
 
