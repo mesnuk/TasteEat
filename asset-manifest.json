@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/TasteEat/static/css/main.240571fe.css",
+    "main.js": "/TasteEat/static/js/main.a97bf53a.js",
+    "index.html": "/TasteEat/index.html",
+    "main.240571fe.css.map": "/TasteEat/static/css/main.240571fe.css.map",
+    "main.a97bf53a.js.map": "/TasteEat/static/js/main.a97bf53a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.240571fe.css",
+    "static/js/main.a97bf53a.js"
+  ]
+}
