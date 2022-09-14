@@ -13,6 +13,6 @@ export const MenuAdvertising: React.FC<{}> = () => {
                 <img src='./images/menu-advert.svg' alt='img' className='image-advert'/>
                 <Btn innerText={'See All Dishes'} colorHover='#E1B168' />
             </div>
-            </div>
+        </div>
     )
 }

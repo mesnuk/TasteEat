@@ -35,12 +35,12 @@ const Comments: React.FC<{props: CommentProps[] }>= ({props}) => {
 
 export const SectionComment : React.FC<{arr : CommentProps[]}> = ({arr}) => {
     return (
-        <div className='section-comments'>
+        <section className='section-comments'>
             <HeaderSectionComments />
             <div className='carousel'>
                 <Comments props={arr} />
             </div>
-        </div>
+        </section>
 
     )
 }

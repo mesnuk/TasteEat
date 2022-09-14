@@ -5,8 +5,10 @@ import {ImageSide} from './image-part'
 export const SectionWelcome: React.FunctionComponent  = () : JSX.Element => {
     return (
         <section className="section-welcome">
-            <Description />
-            <ImageSide />
+
+                <Description />
+                <ImageSide />
+
         </section>
     )
 }

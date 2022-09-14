@@ -1,17 +1,18 @@
 import React from "react";
+import {DiscountDishProps, PopularDishCardProps} from "./type";
+import {SpecialDish} from "./special-dish";
+import {PopularDishes} from "./popular-offers";
 
 
-
-export const OfferSection: React.FC<{}> = () => {
+export const SectionOffer:React.FC<{
+    discountDish : DiscountDishProps[],
+    popularDish : PopularDishCardProps[]
+}> = ({discountDish, popularDish}) => {
     return (
-        <div className='offer-section'>
-            <img src="./images/lamps.svg" alt="lamps" className='image-section'/>
-            <span className='span-title'></span>
-            <h2 className='h2-blocks'></h2>
-            <p className='p-card'></p>
-            <div className='B'>
+        <section className='section-discount'>
 
-            </div>
-        </div>
+            <SpecialDish discountDish={discountDish} />
+            <PopularDishes props={popularDish} />
+        </section>
     )
 }

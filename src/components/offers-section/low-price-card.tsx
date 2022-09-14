@@ -1,21 +1,24 @@
 import React from "react";
+import {DiscountDishProps} from "./type";
 
-export const SpecialOfferCard: React.FC<{}> = () => {
+export const SpecialOfferCard: React.FC<{discountDish : DiscountDishProps}> = ({discountDish}) => {
     return(
-        <div className='special-offer-card'>
+        <div className='special-offer-card' style={{backgroundImage: `url(${discountDish.bgMainSrc})`}}>
             <div className='offer-card-info-side'>
-                <div className='price-side-offer-card'>
-                    <span className='price-offer'></span>
+                <div id={discountDish.name.split(' ')[1].toLowerCase()} className='price-side-offer-card' style={{backgroundImage: `url(${discountDish.bgPriceSrc})`}}>
+
+                    <span className='price-offer'> Only</span>
+                    <span className='price-offer'> ${discountDish.price}</span>
                 </div>
 
-                <span className='discount'></span>
+                <span className='discount'>{discountDish.discount}% offer Going</span>
 
                 <div className='text-body-offer-card'>
-                    <h2 className="h2-blocks"></h2>
-                    <p className="p-card"></p>
+                    <h2 className="h2-blocks">{discountDish.name}</h2>
+                    <p className="p-card">{discountDish.description}</p>
                 </div>
             </div>
-            <img src="./images/dish/burger.svg" alt="special-offer-image"/>
+            <img src={discountDish.imageSrc} alt="special-offer-image"/>
         </div>
     )
 }
