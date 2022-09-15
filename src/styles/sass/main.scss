@@ -116,20 +116,26 @@ $color-border: rgba(255, 255, 255, 0.1);
 }
 
 .section-welcome-image{
-  position: relative;
-}
-.image-welcome {
+  align-items: flex-end;
   padding: 30px 30px 0 30px;
-
+  box-sizing: border-box;
   box-shadow: 0px -30px 0px 0px $color-border,
   -30px 0px 0px 0px $color-border,
   30px 0px 0px 0px $color-border;
+  position: relative;
+}
+.image-welcome {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+
 
 }
 .part-image-welcome {
   position: absolute;
   top: 0;
   right: 0;
+  width: 60%;
 }
 
 .section-about-us {
@@ -386,9 +392,10 @@ span.city-comment {
 
 .discount {
   text-transform: uppercase;
-  letter-spacing: 4.5px;
 
-  @include short-title(#292E36, #292E36)
+  @include short-title(#292E36, #292E36);
+
+  letter-spacing: 4.5px;
 }
 
 .offer-card-info-side {

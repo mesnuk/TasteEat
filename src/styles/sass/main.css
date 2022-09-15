@@ -108,18 +108,24 @@
 }
 
 .section-welcome-image {
+  align-items: flex-end;
+  padding: 30px 30px 0 30px;
+  box-sizing: border-box;
+  box-shadow: 0px -30px 0px 0px rgba(255, 255, 255, 0.1), -30px 0px 0px 0px rgba(255, 255, 255, 0.1), 30px 0px 0px 0px rgba(255, 255, 255, 0.1);
   position: relative;
 }
 
 .image-welcome {
-  padding: 30px 30px 0 30px;
-  box-shadow: 0px -30px 0px 0px rgba(255, 255, 255, 0.1), -30px 0px 0px 0px rgba(255, 255, 255, 0.1), 30px 0px 0px 0px rgba(255, 255, 255, 0.1);
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
 }
 
 .part-image-welcome {
   position: absolute;
   top: 0;
   right: 0;
+  width: 60%;
 }
 
 .section-about-us {
@@ -453,7 +459,6 @@ span.city-comment {
 
 .discount {
   text-transform: uppercase;
-  letter-spacing: 4.5px;
   border-bottom: 1px solid #292E36;
   border-top: 1px solid #292E36;
   padding: 3px 0;
@@ -466,6 +471,7 @@ span.city-comment {
   font-size: 15px;
   line-height: 30px;
   letter-spacing: 0.2px;
+  letter-spacing: 4.5px;
 }
 
 .offer-card-info-side .h2-blocks {
