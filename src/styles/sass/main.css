@@ -7,17 +7,21 @@
 }
 
 .ul-navigation {
+  gap: 50px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-content: center;
+}
+.ul-navigation li:first-child {
+  margin-left: 40px;
 }
 
 .link-navigation {
   display: inline-block;
   height: 30px;
   text-decoration: none;
-  margin: 26px 60px 26px 40px;
+  margin: 26px 0 26px;
   color: #fff;
   font-family: "Josefin Sans";
   font-style: normal;
@@ -221,16 +225,6 @@
   letter-spacing: 0.2px;
 }
 
-.p-card {
-  color: #555555;
-  font-family: "Josefin Sans";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 20px;
-  line-height: 30px;
-  letter-spacing: 0.2px;
-}
-
 .text-body-menu-card {
   display: flex;
   align-items: center;
@@ -293,7 +287,8 @@
 .image-advert {
   margin: 20px 10px 40px 0;
   box-sizing: border-box;
-  width: 100%;
+  object-fit: cover;
+  width: 80%;
   max-height: 500px;
 }
 
@@ -320,6 +315,7 @@
 }
 
 .span-title-testimonial {
+  letter-spacing: 3px;
   border-bottom: 1px solid #E1B168;
   border-top: 1px solid #E1B168;
   padding: 3px 0;
@@ -511,6 +507,9 @@ span.city-comment {
   height: 307px;
   object-fit: cover;
 }
+.popular-dish-card .p-card {
+  text-align: left;
+}
 
 .popular-dish-side {
   padding: 40px;
@@ -518,6 +517,94 @@ span.city-comment {
 .popular-dish-side button {
   display: flex;
   margin: 2% auto;
+}
+
+.title-side-blog {
+  background-color: #292E36;
+  padding: 140px 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.cards-side-blog {
+  width: 70%;
+  margin-left: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+  gap: 30px;
+}
+.cards-side-blog .function-card {
+  padding: 40px;
+  border: 20px solid #323841;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.cards-side-blog .function-card p {
+  color: #fff;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+}
+.cards-side-blog .function-card img {
+  margin-bottom: 20px;
+  height: 60px;
+  width: 60px;
+}
+
+.title-side-blog * {
+  color: #fff;
+}
+
+.section-title-side .title-heading-block {
+  margin-top: 140px;
+}
+
+.cards-legend-side {
+  padding: 40px;
+  gap: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+.cards-legend-side .blog-legend-card {
+  border: 0.33px solid #C4C4C4;
+  max-width: 640px;
+  display: flex;
+  flex-direction: column;
+}
+.cards-legend-side .blog-legend-card .h2-blocks {
+  margin-top: 20px;
+  text-transform: capitalize;
+}
+.cards-legend-side .blog-legend-card .span-title {
+  letter-spacing: 3px;
+}
+.cards-legend-side .blog-legend-card span:first-child {
+  margin-right: 30px;
+}
+.cards-legend-side .image-hovering-legend-card {
+  object-fit: cover;
+  min-height: 300px;
+  background-size: cover;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+.cards-legend-side .blog-card-text-body {
+  padding: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */

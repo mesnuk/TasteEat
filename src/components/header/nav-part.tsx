@@ -7,10 +7,10 @@ import styled from "styled-components";
 const Icons: React.FunctionComponent = ()=> {
  return (
      <div className="navigation-header-icons">
-         <a href='https://www.instagram.com/andrijin.tus/'><img src="./images/logo/inst-logo.svg" alt="" className="social-media-icon" /></a>
-         <a href='https://www.facebook.com/profile.php?id=100017272267301/'><img src="./images/logo/facebook-logo.svg" alt="" className="social-media-icon" /></a>
-         <a href='https://twitter.com/SovtusAndjey'><img src="./images/logo/twiter-logo.svg" alt="" className="social-media-icon" /></a>
-         <a href='https://www.pinterest.com/'><img src="./images/logo/printerst.svg" alt="" className="social-media-icon" /></a>
+         <a href='https://www.instagram.com/andrijin.tus/'><img src="./images/icons/inst-logo.svg" alt="" className="social-media-icon" /></a>
+         <a href='https://www.facebook.com/profile.php?id=100017272267301/'><img src="./images/icons/facebook-logo.svg" alt="" className="social-media-icon" /></a>
+         <a href='https://twitter.com/SovtusAndjey'><img src="./images/icons/twiter-logo.svg" alt="" className="social-media-icon" /></a>
+         <a href='https://www.pinterest.com/'><img src="./images/icons/printerst.svg" alt="" className="social-media-icon" /></a>
      </div>
  )
 }

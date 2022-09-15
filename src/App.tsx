@@ -10,6 +10,8 @@ import {CommentProps} from "./components/comments-section/type";
 import {SectionComment} from "./components/comments-section/section-comment";
 import {DiscountDishProps, PopularDishCardProps} from "./components/offers-section/type";
 import {SectionOffer} from "./components/offers-section/offer-section";
+import {SectionBlog} from "./components/blog-section/blog-section";
+import {BlogCardProps} from "./components/blog-section/type";
 
 
 
@@ -37,6 +39,27 @@ const discountDish: DiscountDishProps[] = [
         "bgMainSrc" : "./images/backgrounds/background-disc-card2.svg",
         "bgPriceSrc" : "./images/backgrounds/price-second.svg"
     }
+];
+const blogCards: BlogCardProps[] = [
+    {
+        "bgSrc" : "./images/backgrounds/fist-card.svg",
+        "link" : "",
+        "firstSpan" : "Delicious" ,
+        "secondSpan" : "March 19, 2022",
+        "heading" : "The Legend of US Cuisine: The Story of Hungry People",
+        "paragraph" : "Capitalize on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality."
+
+    },
+    {
+        "bgSrc" : "./images/backgrounds/second-card.svg",
+        "link" : "",
+        "firstSpan" : "Cooking" ,
+        "secondSpan" : "March 19, 2022",
+        "heading" : "The Most Popular Delicious Food of Mediterranean Cuisine",
+        "paragraph" : "Strategies on low-hanging fruit to identify a ballpark value added matrix economically and the creative activity to beta test override the food quality."
+
+    }
+
 ];
 
 
@@ -85,6 +108,7 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
       <SectionMenu menuCards={menuCardProps}/>
       <SectionComment arr={commentCardProps} />
       <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
+      <SectionBlog blogCards={blogCards} />
     </div>
   );
 }
