@@ -6,6 +6,7 @@ export interface ButtonInterface {
     width ?: number;
     bgColorHover ?:  string;
     colorHover ?:  string;
+    colorBorder ?:  string;
 }
 export interface LinkInterface extends ButtonInterface{
     href : string;

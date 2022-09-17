@@ -14,7 +14,7 @@ export const SpecialDish: React.FC<{discountDish : DiscountDishProps[]}> = ({dis
 
             <TitleHeading span='OFFER'
                           heading='Popular Dishes'
-                          paragraph='There is a game between the waiters in restaurant to see who serves the food to<br /> the dishes are in offers use it based on hunger.'
+                          paragraph='There is a game between the waiters in restaurant to see who serves the food to the dishes are in offers use it based on hunger.'
                           align='center' />
             <div className='discount-dish-side'>
                 {

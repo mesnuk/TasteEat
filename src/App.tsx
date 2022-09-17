@@ -12,6 +12,7 @@ import {DiscountDishProps, PopularDishCardProps} from "./components/offers-secti
 import {SectionOffer} from "./components/offers-section/offer-section";
 import {SectionBlog} from "./components/blog-section/blog-section";
 import {BlogCardProps} from "./components/blog-section/type";
+import {SectionForm} from "./components/form-section/form-section";
 
 
 
@@ -109,6 +110,7 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
       <SectionComment arr={commentCardProps} />
       <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
       <SectionBlog blogCards={blogCards} />
+      <SectionForm />
     </div>
   );
 }

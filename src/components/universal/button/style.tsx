@@ -1,7 +1,7 @@
 import {ButtonInterface, LinkInterface} from './ButtonType';
 
 
-export const styleBtn = ({bgColor = '#E1B168', textColor='#000', height = 73, width=181, bgColorHover = 'inherit', colorHover = '#fff'}: ButtonInterface | LinkInterface) => {
+export const styleBtn = ({bgColor = '#E1B168', textColor='#000', height = 73, width=181, bgColorHover = 'inherit', colorHover = '#fff', colorBorder = '#E1B168'}: ButtonInterface | LinkInterface) => {
     return  `
     display: inline-block;
     
@@ -10,7 +10,7 @@ export const styleBtn = ({bgColor = '#E1B168', textColor='#000', height = 73, wi
     color : ${textColor};
     
     box-sizing: border-box;  
-    border: 2px solid #E1B168;
+    border: 2px solid ${colorBorder};
     border-radius: 0px;
     padding: 20px 57px;
     font-family: 'Josefin Sans';
