@@ -651,6 +651,7 @@ span.city-comment {
 }
 .inputs-side input::-webkit-outer-spin-button,
 .inputs-side input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
   margin: 0;
 }
 .inputs-side input[name=name] {
@@ -677,6 +678,28 @@ span.city-comment {
 }
 .inputs-side .react-datepicker-wrapper input {
   width: 100%;
+}
+
+.footer {
+  background-color: #292E36;
+}
+.footer * {
+  color: #fff;
+}
+.footer .navigation-header-icons {
+  margin-right: 0;
+}
+.footer .footer-title-side, .footer .under-title-footer-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  align-items: center;
+}
+.footer .under-logo-text {
+  text-align: center;
+  max-width: 300px;
+  margin-left: 30px;
 }
 
 /*# sourceMappingURL=main.css.map */

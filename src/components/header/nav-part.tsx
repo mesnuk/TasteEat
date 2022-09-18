@@ -4,7 +4,7 @@ import {Btn} from '../universal/button/button'
 import styled from "styled-components";
 
 
-const Icons: React.FunctionComponent = ()=> {
+export const Icons: React.FunctionComponent = ()=> {
  return (
      <div className="navigation-header-icons">
          <a href='https://www.instagram.com/andrijin.tus/'><img src="./images/icons/inst-logo.svg" alt="" className="social-media-icon" /></a>
