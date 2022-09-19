@@ -155,6 +155,7 @@ $color-border: rgba(255, 255, 255, 0.1);
 }
 
 .short-icon-side {
+  padding: 0 15px;
   margin-bottom: 60px;
   @include centerFlow(row, space-around);
 }
@@ -703,6 +704,10 @@ span.city-comment {
 
   @include centerFlow(row, space-between);
   align-items: center;
+
+  .p-card{
+    margin-bottom: 0;
+  }
 }
 .subscribe-footer {
   display: flex;

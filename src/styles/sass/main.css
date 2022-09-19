@@ -138,6 +138,7 @@
 }
 
 .short-icon-side {
+  padding: 0 15px;
   margin-bottom: 60px;
   display: flex;
   flex-direction: row;
@@ -764,6 +765,9 @@ span.city-comment {
   justify-content: space-between;
   align-content: center;
   align-items: center;
+}
+.footer .p-card {
+  margin-bottom: 0;
 }
 
 .subscribe-footer {
