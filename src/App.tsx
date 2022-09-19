@@ -1,5 +1,7 @@
 import React, {useEffect, useState} from 'react';
-import Header from './components/header/header'
+import Header from './components/header/header';
+import "@fontsource/cormorant-infant";
+import "@fontsource/josefin-sans";
 import {SectionWelcome} from './components/welcome-section/section-welcome'
 import {DataService} from "./services/data-service";
 import {CardProps, TextBlockProps} from "./components/about-us-section/types";
@@ -13,7 +15,7 @@ import {SectionOffer} from "./components/offers-section/offer-section";
 import {SectionBlog} from "./components/blog-section/blog-section";
 import {BlogCardProps} from "./components/blog-section/type";
 import {SectionForm} from "./components/form-section/form-section";
-import {Footer} from "./components/footer/footer";
+import {SectionFooter} from "./components/footer/footer";
 
 
 
@@ -112,7 +114,7 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
       <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
       <SectionBlog blogCards={blogCards} />
       <SectionForm />
-      <Footer />
+      <SectionFooter />
     </>
   );
 }
