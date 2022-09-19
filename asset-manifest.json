@@ -1,13 +1,23 @@
 {
   "files": {
-    "main.css": "/TasteEat/static/css/main.f13ad6de.css",
-    "main.js": "/TasteEat/static/js/main.52a5866b.js",
+    "main.css": "/TasteEat/static/css/main.479d29a5.css",
+    "main.js": "/TasteEat/static/js/main.e59e4494.js",
+    "static/media/cormorant-infant-all-400-normal.woff": "/TasteEat/static/media/cormorant-infant-all-400-normal.e98e167b547dc25f8abe.woff",
+    "static/media/josefin-sans-all-400-normal.woff": "/TasteEat/static/media/josefin-sans-all-400-normal.7c4532067e4e43539af1.woff",
+    "static/media/cormorant-infant-latin-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-latin-400-normal.75450361054c49042a4a.woff2",
+    "static/media/cormorant-infant-latin-ext-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-latin-ext-400-normal.798aaed7e9bc0cb8a62f.woff2",
+    "static/media/cormorant-infant-cyrillic-ext-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-cyrillic-ext-400-normal.e71915a6049a429e6495.woff2",
+    "static/media/josefin-sans-latin-400-normal.woff2": "/TasteEat/static/media/josefin-sans-latin-400-normal.a881812c0fff75f6cf26.woff2",
+    "static/media/cormorant-infant-cyrillic-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-cyrillic-400-normal.694f29bf326d0d033233.woff2",
+    "static/media/josefin-sans-latin-ext-400-normal.woff2": "/TasteEat/static/media/josefin-sans-latin-ext-400-normal.9a2c45e18269982d8d82.woff2",
+    "static/media/cormorant-infant-vietnamese-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-vietnamese-400-normal.031b7966f012ee32c028.woff2",
+    "static/media/josefin-sans-vietnamese-400-normal.woff2": "/TasteEat/static/media/josefin-sans-vietnamese-400-normal.8d631991aaf999843621.woff2",
     "index.html": "/TasteEat/index.html",
-    "main.f13ad6de.css.map": "/TasteEat/static/css/main.f13ad6de.css.map",
-    "main.52a5866b.js.map": "/TasteEat/static/js/main.52a5866b.js.map"
+    "main.479d29a5.css.map": "/TasteEat/static/css/main.479d29a5.css.map",
+    "main.e59e4494.js.map": "/TasteEat/static/js/main.e59e4494.js.map"
   },
   "entrypoints": [
-    "static/css/main.f13ad6de.css",
-    "static/js/main.52a5866b.js"
+    "static/css/main.479d29a5.css",
+    "static/js/main.e59e4494.js"
   ]
 }
