@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/TasteEat/static/css/main.479d29a5.css",
+    "main.css": "/TasteEat/static/css/main.a487930b.css",
     "main.js": "/TasteEat/static/js/main.e59e4494.js",
     "static/media/cormorant-infant-all-400-normal.woff": "/TasteEat/static/media/cormorant-infant-all-400-normal.e98e167b547dc25f8abe.woff",
     "static/media/josefin-sans-all-400-normal.woff": "/TasteEat/static/media/josefin-sans-all-400-normal.7c4532067e4e43539af1.woff",
@@ -13,11 +13,11 @@
     "static/media/cormorant-infant-vietnamese-400-normal.woff2": "/TasteEat/static/media/cormorant-infant-vietnamese-400-normal.031b7966f012ee32c028.woff2",
     "static/media/josefin-sans-vietnamese-400-normal.woff2": "/TasteEat/static/media/josefin-sans-vietnamese-400-normal.8d631991aaf999843621.woff2",
     "index.html": "/TasteEat/index.html",
-    "main.479d29a5.css.map": "/TasteEat/static/css/main.479d29a5.css.map",
+    "main.a487930b.css.map": "/TasteEat/static/css/main.a487930b.css.map",
     "main.e59e4494.js.map": "/TasteEat/static/js/main.e59e4494.js.map"
   },
   "entrypoints": [
-    "static/css/main.479d29a5.css",
+    "static/css/main.a487930b.css",
     "static/js/main.e59e4494.js"
   ]
 }
