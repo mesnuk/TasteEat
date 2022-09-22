@@ -65,8 +65,10 @@ $color-border: rgba(255, 255, 255, 0.1);
 
 
 
+
   @include textStyle();
-  &:hover {
+
+  &:hover, &.active {
     @include hovering();
     color: #E1B168;
   }

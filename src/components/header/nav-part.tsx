@@ -1,7 +1,5 @@
 import React from 'react'
-import {Link} from '../universal/button/linkA'
-import {Btn} from '../universal/button/button'
-import styled from "styled-components";
+import { NavLink } from "react-router-dom";
 
 
 export const Icons: React.FunctionComponent = ()=> {
@@ -15,16 +13,16 @@ export const Icons: React.FunctionComponent = ()=> {
  )
 }
 
-const Links : React.FunctionComponent = () => {
+export const NavLinks : React.FunctionComponent = () => {
     return (
     <div className="navigation-header-buttons">
         <ul className="ul-navigation">
-            <li><a href="/" className="link-navigation">Home</a></li>
-            <li><a href="/" className="link-navigation">About us</a></li>
-            <li><a href="/" className="link-navigation">Our Menu</a></li>
-            <li><a href="/" className="link-navigation">Pages</a></li>
-            <li><a href="/" className="link-navigation">Blog</a></li>
-            <li><a href="/" className="link-navigation">ContactUs</a></li>
+            <li><NavLink to="/home"  className="link-navigation">Home</NavLink></li>
+            <li><NavLink to="/about-us" className="link-navigation">About us</NavLink></li>
+            <li><NavLink to="/menu" className="link-navigation">Our Menu</NavLink></li>
+            <li><NavLink to="/pages" className="link-navigation">Pages</NavLink></li>
+            <li><NavLink to="/blog" className="link-navigation">Blog</NavLink></li>
+            <li><NavLink to="/contact-us" className="link-navigation">ContactUs</NavLink></li>
         </ul>
     </div>
     )
@@ -33,8 +31,8 @@ const Links : React.FunctionComponent = () => {
 export const Navigation: React.FunctionComponent = () : JSX.Element =>  {
  return (
      <nav className="navigation-header">
-         <Links />
-         <Icons />
+         <NavLinks />
+         <Icons/>
      </nav>
  )
 }

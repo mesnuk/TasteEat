@@ -17,6 +17,7 @@ import {BlogCardProps} from "./components/blog-section/type";
 import {SectionForm} from "./components/form-section/form-section";
 import {SectionFooter} from "./components/footer/footer";
 
+import { BrowserRouter as Router, Route, Switch, Redirect} from "react-router-dom";
 
 
 
@@ -92,29 +93,53 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
             new DataService().getPopularDishCards()
                 .then((res) => setPopularDishCardProps(res))    }
 
-
-
     useEffect(() => {
         getInfoCards();
         getTextCards();
         getMenuCards();
         getCommentsCards();
         getPopularDishCards();
-
     }, [])
+
+
+
+
+
+
 
 
   return (
     <>
-      <Header />
-      <SectionWelcome />
-      <SectionAboutUs infoCards={cardProps} textCards={textProps} />
-      <SectionMenu menuCards={menuCardProps}/>
-      <SectionComment arr={commentCardProps} />
-      <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
-      <SectionBlog blogCards={blogCards} />
-      <SectionForm />
-      <SectionFooter />
+      <Router>
+          <Header />
+          <Switch>
+              <Redirect from='/' exact to='/home' />
+              <Route path='/home'>
+                  <SectionWelcome />
+              </Route>
+              <Route path='/about-us'>
+                  <SectionAboutUs infoCards={cardProps} textCards={textProps} />
+              </Route>
+              <Route path='/menu'>
+                  <SectionMenu menuCards={menuCardProps}/>
+              </Route>
+              <Route path='/about-us'>
+                  <SectionComment arr={commentCardProps} />
+              </Route>
+              <Route path='/pages'>
+                  <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
+              </Route>
+              <Route path='/blog'>
+                  <SectionBlog blogCards={blogCards} />
+              </Route>
+              <Route path='/contact-us'>
+                  <SectionForm />
+              </Route>
+          </Switch>
+          <SectionFooter />
+      </Router>
+
+
     </>
   );
 }
