@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/TasteEat/home/static/css/main.ba9d73a5.css",
-    "main.js": "/TasteEat/home/static/js/main.a8bc04e5.js",
+    "main.js": "/TasteEat/home/static/js/main.882cc57b.js",
     "static/media/cormorant-infant-all-400-normal.woff": "/TasteEat/home/static/media/cormorant-infant-all-400-normal.e98e167b547dc25f8abe.woff",
     "static/media/josefin-sans-all-400-normal.woff": "/TasteEat/home/static/media/josefin-sans-all-400-normal.7c4532067e4e43539af1.woff",
     "static/media/cormorant-infant-latin-400-normal.woff2": "/TasteEat/home/static/media/cormorant-infant-latin-400-normal.75450361054c49042a4a.woff2",
@@ -14,10 +14,10 @@
     "static/media/josefin-sans-vietnamese-400-normal.woff2": "/TasteEat/home/static/media/josefin-sans-vietnamese-400-normal.8d631991aaf999843621.woff2",
     "index.html": "/TasteEat/home/index.html",
     "main.ba9d73a5.css.map": "/TasteEat/home/static/css/main.ba9d73a5.css.map",
-    "main.a8bc04e5.js.map": "/TasteEat/home/static/js/main.a8bc04e5.js.map"
+    "main.882cc57b.js.map": "/TasteEat/home/static/js/main.882cc57b.js.map"
   },
   "entrypoints": [
     "static/css/main.ba9d73a5.css",
-    "static/js/main.a8bc04e5.js"
+    "static/js/main.882cc57b.js"
   ]
 }
