@@ -18,12 +18,12 @@ export const NavLinks : React.FunctionComponent = () => {
     <div className="navigation-header-buttons">
         <ul className="ul-navigation">
 
-            <li><NavLink to="/home"  className="link-navigation">Home</NavLink></li>
-            <li><NavLink to="/about-us" className="link-navigation">About us</NavLink></li>
-            <li><NavLink to="/menu" className="link-navigation">Our Menu</NavLink></li>
-            <li><NavLink to="/pages" className="link-navigation">Pages</NavLink></li>
-            <li><NavLink to="/blog" className="link-navigation">Blog</NavLink></li>
-            <li><NavLink to="/contact-us" className="link-navigation">ContactUs</NavLink></li>
+            <li><NavLink to="/TasteEat/home"  className="link-navigation">Home</NavLink></li>
+            <li><NavLink to="/TasteEat/about-us" className="link-navigation">About us</NavLink></li>
+            <li><NavLink to="/TasteEat/menu" className="link-navigation">Our Menu</NavLink></li>
+            <li><NavLink to="/TasteEat/pages" className="link-navigation">Pages</NavLink></li>
+            <li><NavLink to="/TasteEat/blog" className="link-navigation">Blog</NavLink></li>
+            <li><NavLink to="/TasteEat/contact-us" className="link-navigation">ContactUs</NavLink></li>
 
         </ul>
     </div>
