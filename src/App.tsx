@@ -114,25 +114,25 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
           <Header />
           <Switch>
               <Redirect from='TasteEat/' exact to='TasteEat/home' />
-              <Route path='TasteEat/home'>
+              <Route path='/home'>
                   <SectionWelcome />
               </Route>
-              <Route path='TasteEat/about-us'>
+              <Route path='/about-us'>
                   <SectionAboutUs infoCards={cardProps} textCards={textProps} />
               </Route>
-              <Route path='TasteEat/menu'>
+              <Route path='/menu'>
                   <SectionMenu menuCards={menuCardProps}/>
               </Route>
-              <Route path='TasteEat/about-us'>
+              <Route path='/about-us'>
                   <SectionComment arr={commentCardProps} />
               </Route>
-              <Route path='TasteEat/pages'>
+              <Route path='/pages'>
                   <SectionOffer discountDish={discountDish} popularDish={popularDishCardProps} />
               </Route>
-              <Route path='TasteEat/blog'>
+              <Route path='/blog'>
                   <SectionBlog blogCards={blogCards} />
               </Route>
-              <Route path='TasteEat/contact-us'>
+              <Route path='/contact-us'>
                   <SectionForm />
               </Route>
           </Switch>
