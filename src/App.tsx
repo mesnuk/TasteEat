@@ -134,7 +134,9 @@ const [popularDishCardProps, setPopularDishCardProps]: [PopularDishCardProps[], 
               <Route path='/TasteEat/contact-us'>
                   <SectionForm />
               </Route>
-              <Redirect from='/TasteEat/:any' to='/TasteEat/home' />
+              <Route path='/TasteEat/' exact>
+                  <Redirect to='/TasteEat/home' />
+              </Route>
           </Switch>
           <SectionFooter />
       </Router>
