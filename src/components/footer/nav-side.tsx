@@ -21,7 +21,7 @@ const ContactFooter : React.FunctionComponent =  () : JSX.Element => {
 const SubscribeFooter : React.FunctionComponent =  () : JSX.Element => {
     return (
         <div className='subscribe-footer'>
-            <input type="email" name='email'/>
+            <input type="email" name='email' placeholder='Email'/>
             <Btn innerText='Subscribe' bgColor='#fff'
                  textColor='#000' bgColorHover='rgba(41, 46, 54, 0.95)' colorHover='#fff' />
         </div>
